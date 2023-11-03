@@ -2,4 +2,29 @@ table {
   border: black;
 }
 
+p {
+  color: red;
+}
+
+header {
+  background: #343944;
+  box-shadow: 15px 25px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 800px;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+.text {
+  width: 255px;
+  height: 118px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  box-sizing: border-box;
+}
+
 /*# sourceMappingURL=app.component.css.map */
