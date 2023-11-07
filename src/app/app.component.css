@@ -27,4 +27,8 @@ header {
   box-sizing: border-box;
 }
 
+td {
+  border-color: aqua;
+}
+
 /*# sourceMappingURL=app.component.css.map */
