@@ -1,33 +1,53 @@
-table{
-  border: black;
+.body{
+  display: flex;
+  padding: 22px 617px 655px 617px;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+  background: #FFF;
+  font-family: 'Roboto', sans-serif;
+
 }
-p{
-  color: red;
+
+.headerClass{
+  width: 500px;
+  height: 227px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  background: #FFF;
+  box-shadow: 14px 18px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
 }
-header{
-  background: #343944;
-  box-shadow: 15px 25px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 800px;
-  height: 400px;
-  flex-shrink: 0;
-}
-.text{
-  width: 255px;
-  height: 118px;
-  flex-shrink: 0;
-  color: #FFF;
-  font-family: Inter;
-  font-size: 12px;
-  font-style: normal;
+
+h1{
+  font-size: 32px;
   font-weight: 400;
-  line-height: normal;
-  box-sizing: border-box;
+
 }
-td{
-  border-color: aqua;
+
+.headNames{
+  display: flex;
+  text-align: left;
 }
-// файл де задаються стилі
-//2222222222222222222222222222222222222222222
-//11111111111111111111111111111111
-//hope\
-// habit 1
+.headName1{
+  margin-left: 164px;
+}
+.headName2{
+  margin-left: 31px;
+}
+.headName3{
+  margin-left: 11px;
+}
+//краще об'єднати в контейнер весь цей контент і відцентрувати
+.contentTextContainer{
+  display: flex;
+  text-align: left;
+}
+
+.contentTextContainer1{
+  margin-left: 164px;
+}
+
+.contentTextContainer2{
+  margin-left: 41px;
+}
