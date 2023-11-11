@@ -26,6 +26,9 @@ h1 {
 .headNames {
   display: flex;
   text-align: left;
+  color: #989898;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .headName1 {
@@ -46,11 +49,56 @@ h1 {
 }
 
 .contentTextContainer1 {
-  margin-left: 164px;
+  margin-left: 106px;
 }
 
 .contentTextContainer2 {
   margin-left: 41px;
+}
+
+img {
+  width: 45px;
+  height: 45px;
+  margin-right: 13px;
+}
+
+.contentTextContainer1 div {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.conTC1 {
+  margin-top: 1px;
+}
+
+.blueInd {
+  color: #26278D;
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: 6px;
+}
+
+.contentTextContainer2 {
+  color: #3C3C3C;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+}
+
+.pur1 {
+  margin-top: 12px;
+}
+
+.purchase div {
+  margin-bottom: 40px;
+}
+
+.sale {
+  margin-left: 58px;
+}
+
+.sale div {
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=app.component.css.map */
