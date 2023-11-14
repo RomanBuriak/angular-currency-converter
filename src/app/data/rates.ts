@@ -1,0 +1,12 @@
+import {IRate} from "../models/rate";
+
+export const rates: IRate[] = [
+  {
+    "currencyCodeA": 840,
+    "currencyCodeB": 980,
+    "date": 1552392228,
+    "rateSell": 27,
+    "rateBuy": 27.2,
+    "rateCross": 27.1
+  }
+]

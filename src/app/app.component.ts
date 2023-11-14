@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {IRate} from "./models/rate";
+import {rates as data} from "./data/rates"
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-currency-converter';
+  rates: IRate[] = data
 }
