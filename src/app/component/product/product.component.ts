@@ -1,5 +1,5 @@
 import {Component, Input} from "@angular/core";
-import {IRate} from "../../models/rate";
+import {IProduct} from "../../models/product";
 
 @Component({
   selector: 'app-product',
@@ -8,7 +8,9 @@ import {IRate} from "../../models/rate";
 })
 
 export class ProductComponent {
-  @Input() rate: IRate
+  @Input() product: IProduct;
 }
+
+
 
 
