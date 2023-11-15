@@ -19,12 +19,12 @@
       </div>
       <div  class="contentTextContainer2">
         <div class="purchase">
-          <div class="pur1"> 1111111111 </div>
-          <div>39,45</div>
+          <div class="pur1"> {{rate1.rateBuy}} </div>
+          <div> {{rate2.rateBuy}} </div>
         </div>
         <div class="sale">
-          <div class="pur1">38,67</div>
-          <div>40,02</div>
+          <div class="pur1"> {{rate1.rateSell}} </div>
+          <div> {{rate2.rateSell}} </div>
         </div>
       </div>
     </div>
@@ -39,16 +39,23 @@
               <span class="flex items-center">
                 <img src="https://cdn-icons-png.flaticon.com/512/3909/3909383.png" alt="eng_img" class="h-2 w-2 flex-shrink-0 rounded-full">
 
+
                 <form action="#" class="block truncate colorSpan">
-                  <div>
-                    <select>
-                      <option value="USD">USD</option>
-                      <option value="NPR">NPR</option>
-                      <option value="INR">INR</option>
-                      <option value="PKR">PKR</option>
-                      <option value="MAD">MAD</option>
-                    </select>
+                  <div class="drop-list">
+                    <div class="from">
+                      <div class="select-box">
+                        <select>
+                          <option value="USD">USD</option>
+                          <option value="NPR">NPR</option>
+                          <option value="INR">INR</option>
+                          <option value="PKR">PKR</option>
+                          <option value="MAD">MAD</option>
+                        </select>
+                      </div>
+
+                    </div>
                   </div>
+
                 </form>
               </span>
 
@@ -117,6 +124,8 @@
 
   </div>
 </div>
+
+
 
 
 <!--

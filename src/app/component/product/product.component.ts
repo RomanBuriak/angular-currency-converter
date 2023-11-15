@@ -1,5 +1,6 @@
 import {Component, Input} from "@angular/core";
-import {IProduct} from "../../models/product";
+//import {IProduct} from "../../models/product";
+import {IRate} from "../../models/rate";
 
 @Component({
   selector: 'app-product',
@@ -8,9 +9,9 @@ import {IProduct} from "../../models/product";
 })
 
 export class ProductComponent {
-  @Input() product: IProduct;
+  @Input() rate1: IRate;
+  @Input() rate2: IRate;
 }
-
 
 
 
